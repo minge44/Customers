@@ -1,0 +1,55 @@
+html {
+  background-color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: arial;
+}
+ ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.page_wrap {
+  width: 630px;
+  margin: 0 auto;
+  background-color: white;
+
+}
+names {
+  font-family: arial;
+  font-size: 12px;
+  border-bottom: 1px solid;
+}
+emails {
+  font-size: 10px;
+  padding-top: 10px;
+  color: #979797;
+}
+li {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+}
+span {
+  padding-top: 10px;
+  color: #979797;
+  font-family: arial;
+  width: 125px;
+  font-size: 10px;
+  text-align: center;
+}
+img {
+  width: 125px;
+  margin: 5px;
+}
